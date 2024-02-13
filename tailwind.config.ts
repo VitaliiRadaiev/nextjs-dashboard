@@ -18,6 +18,9 @@ const config: Config = {
           600: '#2F6FEB',
         },
       },
+      fontFamily: {
+        sfProDisplay: ['var(--sf-pro-display)']
+      }
     },
     keyframes: {
       shimmer: {
@@ -26,6 +29,7 @@ const config: Config = {
         },
       },
     },
+
   },
   plugins: [require('@tailwindcss/forms')],
 };
